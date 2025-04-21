@@ -1,0 +1,273 @@
+
+/* index */
+.container.list-menu {
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+.container.list-menu ul {
+    list-style-type: none;
+}
+
+.container.list-menu ul li {
+    padding: 20px 0px;
+    width: 100%;
+}
+.container.list-menu ul li a {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #170807;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+/* css-cv */
+body.body-cv {
+    background-color: #a47674;
+}
+.container.cv {
+    max-width: 804px;
+    min-height: 900px;
+    padding: 25px 70px 0px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+}
+
+.cv-header {
+    text-align: center;
+}
+
+.cv-header h1 {
+    font-size: 20px;
+}
+
+.cv-header p {
+    font-size: 14px;
+    color: #111;
+    padding-top: 5px;
+}
+
+.cv-content {
+    padding-top: 35px;
+}
+
+.container h2 {
+    font-size: 15px;
+}
+
+.cv-border-top {
+    border-top: 1px solid #000;
+    margin-top: 5px;
+}
+
+.cv-job-title {
+    padding-top: 15px;
+}
+
+.cv-content h3 {
+    font-size: 15px;
+}
+
+.heading-3 {
+    text-align: justify;
+}
+
+.cv-heading-3 span {
+    display: inline-block;
+}
+
+.cv-full-width {
+    width: 100%;
+}
+
+.cv-job-description {
+    font-size: 13px;
+}
+
+.cv-job-description ul {
+    padding-left: 20px;
+}
+
+.cv-job-description ul li {
+    line-height: 1.5;
+    color: #111;
+}
+
+.cv-content-footer {
+    margin-top: 20px;
+}
+
+.cv-content-footer p {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+/* menu */
+.container-menu {
+    background-color: #446fce;
+    height: 400px;
+}
+
+.container.menu {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #3f5cca;
+    padding: 0 40px;
+}
+
+.container.menu ul {
+    list-style-type: none;
+}
+
+.container.menu ul li {
+    display: inline-block;
+}
+
+.container.menu ul li a {
+    color: #fff;
+    padding: 30px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container.menu ul li.active a {
+    color: #222;
+    background-color: #fff;
+}
+
+/* form */
+body.form-body {
+    background-color: #d5d0b0;
+}
+
+.container.form {
+    max-width: 650px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.form h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.form .form-group {
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #111;
+}
+
+.form .field-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group-row label {
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.form-group-row {
+    margin-top: 10px;
+}
+
+.form input:not([type="radio"], [type="checkbox"]) {
+    padding: 8px 10px;
+    width: 95%;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form .form-group.form-register {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.form-register .left,
+.form-register .right {
+    width: 49%;
+    display: inline-block;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.form-group .btn {
+    background-color: #3f5cca;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group .btn a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block
+}
+
+.form a.btn {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.form button.btn {
+    background-color: #ee2c7d;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.form .avatar-img {
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.form-group-checkbox label {
+    margin-top: 8px;
+    display: block;
+    font-size: 15px;
+}
+
+.form-group-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}

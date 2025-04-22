@@ -132,7 +132,11 @@ body.form-body {
     display: block;
     margin-bottom: 5px;
 }
-
+.form .field-label::after{
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}
 .form-group-row label {
     font-size: 1rem;
     padding-right: 20px;
@@ -227,4 +231,18 @@ body.form-body {
 
 .form-group-checkbox input[type="checkbox"] {
     margin-right: 5px;
+}
+.form input:focus:not([type="radio"]):not([type="checkbox"]){
+    outline: #4CAF50 solid 1px;
+}
+.form-group.form-register .btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.form-group.form-register .btn-register:active{
+    background-color: #1b7b9e;
+    color: #1e0b0b;
+}
+form:focus-within {
+    background-color: #eef;
 }

@@ -62,6 +62,18 @@
     color: #1a1a1a;
     background-color: #A8E10C ;
 }
+.container.menu ul li::before a{
+    border-right: #a0ca3f 1px solid;
+}
+.menu ul li:nth-child(2):hover a::after{
+    color:#000;
+}
+.container.menu ul li::before{
+    content: '';
+    border-right:1px solid #333;
+    height:78px;
+    position: absolute;
+}
 .menu ul li:nth-child(2) a::after {
     content: '\f0d7'; 
     font-family: 'Font Awesome 5 Free'; 
@@ -80,8 +92,11 @@
     padding-left: 10px;
     font-size: 1rem;
 }
-.menu ul li:nth-child(2):hover a::after{
-    color:#000;
+.container.menu ul li:first-child{
+    margin-right: -5px;
+}
+.container.menu ul li:last-child{
+    margin-left: -5px;
 }
 /* form */
 body.form-body {

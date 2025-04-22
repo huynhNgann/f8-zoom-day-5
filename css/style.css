@@ -339,3 +339,106 @@ form:focus-within {
     transition: all 0.3s ease;
     border:1px solid  #c3e158;
 }
+/* ex04: blog-post */
+.blog-post{
+    max-width: 1280px;
+    margin-top: 20px;
+    /* background-color: #f4f4f4; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+}
+.blog-post p{
+    margin: 10px 0px;
+    
+}
+.blog-post .comment{
+    display: inline-block;
+}
+.blog-post .comment .avatar-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #fff;
+}
+.blog-post p::first-letter{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+}
+.blog-post p::first-line{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #222;
+}
+.blog-post p::selection{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #c3e158; 
+}
+.blog-content img{
+    max-width:800px;
+    margin:20px auto;
+    padding: auto;
+    display: block;
+    border-radius: 10px;
+}
+.blog-post blockquote{
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-left: 5px solid #3b82f6;
+}
+.blog-post blockquote::before{
+    content: '\f10d'; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    display: inline-block;
+    color: #1a1a1a;
+    padding: 0px 12px;
+    font-size: 1rem;
+    line-height: 1rem;
+
+}
+.comments{
+    margin-top:50px;
+}
+.comment{
+    font-size: 0;
+    margin-top:20px;
+}
+
+.comments .comment .avatar-img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comments .comment span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem; 
+    margin-left: 12px;
+    font-style: italic  ;
+}
+.blog-post h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#f6ca3b;
+    font-weight: 700;
+}
+.blog-post h2:not(h1){
+    color:#1b7b9e;
+}
